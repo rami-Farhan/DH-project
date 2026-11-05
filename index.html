@@ -2,36 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>My First Page</title>
+    <title>Global Public Health - Digital Health Project</title>
+    <style>
+      body {
+        background-color: lightgrey;
+        color: black;
+        font-family: Arial, sans-serif;
+        max-width: 700px;
+        margin: 110px auto 40px auto;
+      }
+      h1 {
+        color: black;
+      }
+
+      /* Button container: top-left corner of the page */
+      .buttons {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: flex;
+        gap: 10px;
+      }
+
+      /* Small square buttons */
+      .btn {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      .btn:hover {
+        background-color: #555;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello, Global Public Health!</h1>
-    <p>This is my first website.</p>
+    <div class="buttons">
+      <a class="btn" href="https://www.who.int" target="_blank">WHO</a>
+      <a class="btn" href="https://github.com/rami-Farhan" target="_blank">GitHub</a>
+    </div>
+
+    <h1>Global Public Health - Digital Health Project</h1>
   </body>
 </html>
-
-
-<h2>Topics I care about</h2>
-<ul>
-  <li>Epidemiology</li>
-  <li>Digital health</li>
-</ul>
-
-<a href="https://www.who.int">WHO website</a>
-
-<table>
-  <tr><th>Country</th><th>Cases</th></tr>
-  <tr><td>Germany</td><td>120</td></tr>
-</table>
-
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    max-width: 700px;
-    margin: 40px auto;
-    background-color: #f5f5f5;
-  }
-  h1 {
-    color: #2a6f97;
-  }
-</style>
